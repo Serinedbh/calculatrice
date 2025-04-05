@@ -8,7 +8,7 @@ function appendNumber(number) {
 }
 
 function setOperator(op) {
-  if (currentInput === "") return; // Prevent setting operator if input is empty
+  if (currentInput === "") return;
   if (previousInput !== "") {
     calculateResult();
   }
